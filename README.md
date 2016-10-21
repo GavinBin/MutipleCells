@@ -11,7 +11,10 @@
 
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, strong) NSString *avatar;
-
+// 创建Cell类型
+@property (nonatomic, copy) NSString * cellClassName;
+// 返回tableViewCell
+- (UITableViewCell *)createdTableViewCell:(UITableView *)tableView;
 @end
 ```
 
