@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "RegisterClassController.h"
 
 @interface AppDelegate ()
 

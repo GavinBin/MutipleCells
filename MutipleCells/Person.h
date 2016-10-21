@@ -9,19 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, PersonShowType) {
-    PersonShowText,
-    PersonShowAvatar,
-    PersonShowTextAndAvatar
-};
-
 @interface Person : NSObject
 
-@property (nonatomic, assign) PersonShowType showtype;
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, strong) NSString *avatar;
-
+// 创建Cell类型
 @property (nonatomic, copy) NSString * cellClassName;
-@property (nonatomic, weak) UITableView *tableViewCell;
+// 返回tableViewCell
 - (UITableViewCell *)createdTableViewCell:(UITableView *)tableView;
 @end

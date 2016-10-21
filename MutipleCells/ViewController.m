@@ -7,13 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "ImageCell.h"
-#import "Person.h"
-#import "TextCell.h"
-#import "ImageCell.h"
 #import "BaseCell.h"
-#import "TextImageCell.h"
-
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 

@@ -7,9 +7,6 @@
 //
 
 #import "Person.h"
-#import "TextCell.h"
-#import "ImageCell.h"
-#import "TextImageCell.h"
 #import "BaseCell.h"
 
 @implementation Person
